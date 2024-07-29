@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Color Picker</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Color Picker</title>
+    <link
+      rel="icon"
+      href="https://e7.pngegg.com/pngimages/744/159/png-clipart-round-multi-color-logo-color-wheel-computer-icons-rgb-color-space-colour-logo-color.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container" id="container">
-        <h1>Custom Color Picker</h1>
-        <h2>Choose any color and generate its hex code</h2>
-        <input type="color" id="colorPicker" onchange="calculateColor()">
-        <div id="output-div">
-            <h2 id="result">#000000</h2>
-        </div>
+      <h1>Custom Color Picker</h1>
+      <h2>Choose any color and generate its hex code</h2>
+      <input type="color" id="colorPicker" onchange="calculateColor()" />
+      <div id="output-div">
+        <h2 id="result">#000000</h2>
+      </div>
     </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
